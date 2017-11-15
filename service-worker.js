@@ -5,19 +5,19 @@ var filesToCache = [
     'https://maaaiiio0108.github.io/maaaiiio.github.io/index.html',
     'https://maaaiiio0108.github.io/maaaiiio.github.io/scripts/app.js',
     'https://maaaiiio0108.github.io/maaaiiio.github.io/styles/inline.css',
-    '/https://maaaiiio0108.github.io/maaaiiio.github.io/images/clear.png',
-    '/https://maaaiiio0108.github.io/maaaiiio.github.io/images/cloudy-scattered-showers.png',
-    '/https://maaaiiio0108.github.io/maaaiiio.github.io/images/cloudy.png',
-    '/https://maaaiiio0108.github.io/maaaiiio.github.io/images/fog.png',
-    '/https://maaaiiio0108.github.io/maaaiiio.github.io/images/ic_add_white_24px.svg',
-    '/https://maaaiiio0108.github.io/maaaiiio.github.io/images/ic_refresh_white_24px.svg',
-    '/https://maaaiiio0108.github.io/maaaiiio.github.io/images/partly-cloudy.png',
-    '/https://maaaiiio0108.github.io/maaaiiio.github.io/images/rain.png',
-    '/https://maaaiiio0108.github.io/maaaiiio.github.io/images/scattered-showers.png',
-    '/https://maaaiiio0108.github.io/maaaiiio.github.io/images/sleet.png',
-    '/https://maaaiiio0108.github.io/maaaiiio.github.io/images/snow.png',
-    '/https://maaaiiio0108.github.io/maaaiiio.github.io/images/thunderstorm.png',
-    '/https://maaaiiio0108.github.io/maaaiiio.github.io/images/wind.png'
+    'https://maaaiiio0108.github.io/maaaiiio.github.io/images/clear.png',
+    'https://maaaiiio0108.github.io/maaaiiio.github.io/images/cloudy-scattered-showers.png',
+    'https://maaaiiio0108.github.io/maaaiiio.github.io/images/cloudy.png',
+    'https://maaaiiio0108.github.io/maaaiiio.github.io/images/fog.png',
+    'https://maaaiiio0108.github.io/maaaiiio.github.io/images/ic_add_white_24px.svg',
+    'https://maaaiiio0108.github.io/maaaiiio.github.io/images/ic_refresh_white_24px.svg',
+    'https://maaaiiio0108.github.io/maaaiiio.github.io/images/partly-cloudy.png',
+    'https://maaaiiio0108.github.io/maaaiiio.github.io/images/rain.png',
+    'https://maaaiiio0108.github.io/maaaiiio.github.io/images/scattered-showers.png',
+    'https://maaaiiio0108.github.io/maaaiiio.github.io/images/sleet.png',
+    'https://maaaiiio0108.github.io/maaaiiio.github.io/images/snow.png',
+    'https://maaaiiio0108.github.io/maaaiiio.github.io/images/thunderstorm.png',
+    'https://maaaiiio0108.github.io/maaaiiio.github.io/images/wind.png'
 ];
 
 self.addEventListener('install', function(e) {
