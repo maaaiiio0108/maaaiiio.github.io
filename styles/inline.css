@@ -102,15 +102,15 @@ body {
 }
 
 .header #butNotifications {
-    background: url(https://maaaiiio0108.github.io/maaaiiio.github.io/images/ic_notifications_white_24px.svg) center center no-repeat;
+    background: url(ic_notifications_white_24px.svg) center center no-repeat;
 }
 
 .header #butRefresh {
-    background: url(https://maaaiiio0108.github.io/maaaiiio.github.io/images/ic_refresh_white_24px.svg) center center no-repeat;
+    background: url(ic_refresh_white_24px.svg) center center no-repeat;
 }
 
 .header #butAdd {
-    background: url(https://maaaiiio0108.github.io/maaaiiio.github.io/images/ic_add_white_24px.svg) center center no-repeat;
+    background: url(ic_add_white_24px.svg) center center no-repeat;
 }
 
 .header__title {
@@ -389,27 +389,27 @@ body {
 }
 
 .weather-forecast .icon.clear-day {
-    background-image: url("https://maaaiiio0108.github.io/maaaiiio.github.io/images/clear.png");
+    background-image: url("clear.png");
 }
 
 .weather-forecast .icon.clear-night {
-    background-image: url("https://maaaiiio0108.github.io/maaaiiio.github.io/images/clear.png");
+    background-image: url("clear.png");
 }
 
 .weather-forecast .icon.rain {
-    background-image: url("images/rain.png");
+    background-image: url("rain.png");
 }
 
 .weather-forecast .icon.snow {
-    background-image: url("images/snow.png");
+    background-image: url("snow.png");
 }
 
 .weather-forecast .icon.sleet {
-    background-image: url("https://maaaiiio0108.github.io/maaaiiio.github.io/images/sleet.png");
+    background-image: url("sleet.png");
 }
 
 .weather-forecast .icon.wind {
-    background-image: url("https://maaaiiio0108.github.io/maaaiiio.github.io/images/wind.png");
+    background-image: url("wind.png");
 }
 
 .weather-forecast .icon.fog {
@@ -417,7 +417,7 @@ body {
 }
 
 .weather-forecast .icon.cloudy {
-    background-image: url("images/cloudy.png");
+    background-image: url("cloudy.png");
 }
 
 .weather-forecast .icon.partly-cloudy-day {
@@ -425,11 +425,11 @@ body {
 }
 
 .weather-forecast .icon.partly-cloudy-night {
-    background-image: url("https://maaaiiio0108.github.io/maaaiiio.github.io/images/partly-cloudy.png");
+    background-image: url("partly-cloudy.png");
 }
 
 .weather-forecast .icon.thunderstorms {
-    background-image: url("https://maaaiiio0108.github.io/maaaiiio.github.io/images/thunderstorms.png");
+    background-image: url("thunderstorms.png");
 }
 
 @media (max-width: 450px) {
