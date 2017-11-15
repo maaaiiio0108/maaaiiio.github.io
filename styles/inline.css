@@ -421,7 +421,7 @@ body {
 }
 
 .weather-forecast .icon.partly-cloudy-day {
-    background-image: url("images/partly-cloudy.png");
+    background-image: url("partly-cloudy.png");
 }
 
 .weather-forecast .icon.partly-cloudy-night {
