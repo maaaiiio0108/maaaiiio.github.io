@@ -1,23 +1,23 @@
 var dataCacheName = 'weatherData-v7';
 var cacheName = 'weatherPWA-step-7-1';
 var filesToCache = [
-    'https://maaaiiio0108.github.io/maaaiiio.github.io/',
-    'https://maaaiiio0108.github.io/maaaiiio.github.io/index.html',
-    'https://maaaiiio0108.github.io/maaaiiio.github.io/scripts/app.js',
-    'https://maaaiiio0108.github.io/maaaiiio.github.io/styles/inline.css',
-    'https://maaaiiio0108.github.io/maaaiiio.github.io/images/clear.png',
-    'https://maaaiiio0108.github.io/maaaiiio.github.io/images/cloudy-scattered-showers.png',
-    'https://maaaiiio0108.github.io/maaaiiio.github.io/images/cloudy.png',
-    'https://maaaiiio0108.github.io/maaaiiio.github.io/images/fog.png',
-    'https://maaaiiio0108.github.io/maaaiiio.github.io/images/ic_add_white_24px.svg',
-    'https://maaaiiio0108.github.io/maaaiiio.github.io/images/ic_refresh_white_24px.svg',
-    'https://maaaiiio0108.github.io/maaaiiio.github.io/images/partly-cloudy.png',
-    'https://maaaiiio0108.github.io/maaaiiio.github.io/images/rain.png',
-    'https://maaaiiio0108.github.io/maaaiiio.github.io/images/scattered-showers.png',
-    'https://maaaiiio0108.github.io/maaaiiio.github.io/images/sleet.png',
-    'https://maaaiiio0108.github.io/maaaiiio.github.io/images/snow.png',
-    'https://maaaiiio0108.github.io/maaaiiio.github.io/images/thunderstorm.png',
-    'https://maaaiiio0108.github.io/maaaiiio.github.io/images/wind.png'
+    '/',
+    '/index.html',
+    '/scripts/app.js',
+    '/styles/inline.css',
+    '/images/clear.png',
+    '/images/cloudy-scattered-showers.png',
+    '/images/cloudy.png',
+    '/images/fog.png',
+    '/images/ic_add_white_24px.svg',
+    '/images/ic_refresh_white_24px.svg',
+    '/images/partly-cloudy.png',
+    '/images/rain.png',
+    '/images/scattered-showers.png',
+    '/images/sleet.png',
+    '/images/snow.png',
+    '/images/thunderstorm.png',
+    '/images/wind.png'
 ];
 
 self.addEventListener('install', function(e) {
