@@ -37,8 +37,8 @@ self.addEventListener('push', function(event) {
     var title = 'Push message';
     event.waitUntil(
         self.registration.showNotification(title, {
-            body: 'The Message',
-            icon: 'https://maaaiiio0108.github.io/maaaiiio.github.io/images/icons/icon-256x256.png',
+            body: 'Push通知テスト！！！！',
+            icon: 'https://maaaiiio0108.github.io/maaaiiio.github.io/images/Component.png',
             tag: 'my-tag'
         }));
 });
