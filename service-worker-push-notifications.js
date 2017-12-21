@@ -37,7 +37,7 @@ self.addEventListener('push', function(event) {
     var title = 'Push message';
     event.waitUntil(
         self.registration.showNotification(title, {
-            body: 'Push通知テスト！！！！',
+            body: 'maiPushTest',
             icon: 'images/Component.png',
             tag: 'my-tag'
         }));
