@@ -37,39 +37,30 @@ self.addEventListener('push', function(event) {
     var title = 'Push message';
     event.waitUntil(
         self.registration.showNotification(title, {
-            body: 'maiPushTest',
+            body: 'maiPush通知テスト',
             icon: 'images/Component.png',
             tag: 'my-tag'
         }));
 });
 
 self.addEventListener('notificationclick', function(event) {
-    console.log('Push message', event);
-    var title = 'Push message';
+    console.log('Notification click: tag ', event.notification.tag);
+    event.notification.close();
+    var url = 'https://www.windfinder.com';
     event.waitUntil(
-        self.registration.showNotification(title, {
-            body: 'maiPushTest',
-            icon: 'images/Component.png',
-            tag: 'my-tag'
-        }));
-
-    // console.log('Notification click: tag ', event.notification.tag);
-    // event.notification.close();
-    // var url = 'https://www.windfinder.com';
-    // event.waitUntil(
-    //     clients.matchAll({
-    //         type: 'window'
-    //     })
-    //     .then(function(windowClients) {
-    //         for (var i = 0; i < windowClients.length; i++) {
-    //             var client = windowClients[i];
-    //             if (client.url === url && 'focus' in client) {
-    //                 return client.focus();
-    //             }
-    //         }
-    //         if (clients.openWindow) {
-    //             return clients.openWindow(url);
-    //         }
-    //     })
-    // );
+        clients.matchAll({
+            type: 'window'
+        })
+        .then(function(windowClients) {
+            for (var i = 0; i < windowClients.length; i++) {
+                var client = windowClients[i];
+                if (client.url === url && 'focus' in client) {
+                    return client.focus();
+                }
+            }
+            if (clients.openWindow) {
+                return clients.openWindow(url);
+            }
+        })
+    );
 });
